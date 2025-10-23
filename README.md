@@ -20,3 +20,4 @@ Support toolbox list commands in project mode (namespace: `list`)
 * internally use `LIST TO BLOB` and `BLOB to list`
 * save and restore icon, font, parameters
 * save and restore properites (enterable, styles, color)
+* thread safe
