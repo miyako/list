@@ -18,5 +18,5 @@ Support toolbox list commands in project mode (namespace: `list`)
 * if possible, use `lists.json` on server side, in standard location
 * otherwise use `lists.json` on server side, in custom location
 * internally use `LIST TO BLOB` and `BLOB to list`
-* preserve icon, font, parameters
-* preserve properites (enterable, styles, color)
+* save and restore icon, font, parameters
+* save and restore properites (enterable, styles, color)
