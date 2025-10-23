@@ -4,7 +4,7 @@
 ![downloads](https://img.shields.io/github/downloads/miyako/list/total)
 
 # list
-Support toolbox list commands in project mode
+Support toolbox list commands in project mode (namespace: `list`)
 
 |command|function name|
 |-|-|
@@ -12,3 +12,11 @@ Support toolbox list commands in project mode
 |LIST TO ARRAY||
 |load list||
 |SAVE LIST||
+
+## design
+
+* if possible, use `lists.json` on server side, in standard location
+* otherwise use `lists.json` on server side, in custom location
+* internally use `LIST TO BLOB` and `BLOB to list`
+* preserve icon, font, parameters
+* preserve properites (enterable, styles, color)
